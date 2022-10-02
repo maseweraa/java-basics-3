@@ -3,10 +3,10 @@ package pl.edu.wszib.app;
 public abstract class MyClass {
 
     // modyfikatory dostępu:
-    // private
+    //  private
     //
-    // protected
-    // public
+    //  protected
+    //  public
     private String field1;
 
     String field2;
@@ -15,6 +15,7 @@ public abstract class MyClass {
 
     public String field4;
 
+    //public abstract void run();
     private void run1() {
         System.out.println("Field1 = " + field1);
     }
